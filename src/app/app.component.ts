@@ -10,7 +10,7 @@ import $ from 'jquery';
 export class AppComponent {
 
   private serverUrl = 'http://localhost:8081/socket';
-  private title = 'WebSockets chat';
+  public title = 'WebSockets chat';
   private stompClient;
 
   constructor() {
